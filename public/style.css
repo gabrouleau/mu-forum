@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    color: white;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+}
+
+.bout_creer {
+    display: inline-block;
+    background-color: #DA291C;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.bout_creer:hover {
+    background-color: #db4136;
+    color: white;
+}
+
+.article h2 {
+    font-family: 'Nunito', sans-serif;
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+label {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
